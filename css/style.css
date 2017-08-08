@@ -13,6 +13,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 .cover_photo {
   width: 500px;
   height: 500px;
+  text-align: left;
+
 }
 body a{
     transition:0.5s all;
@@ -48,19 +50,22 @@ body{
 
 }
 .header-section {
-  background: #deecdf;
-  text-align: center;
+  background: white;
     min-height: 500px;
+    display: inline-block;
 }
 .header-section img {
-  margin-top: 7em;
+  margin: 7em;
 }
 .header-section h1 {
+
   font-family: 'Archivo', sans-serif;
   font-size: 4em;
   text-transform: capitalize;
   color: #393b3a;
   padding: 0.5em 0 0 0;
+  display: inline-block;
+  float: center;
 }
 .header-section span {
   color: #00cfbd;
@@ -70,6 +75,8 @@ body{
   font-family: 'Archivo', sans-serif;
   font-size: 1.3em;
   color: #393b3a;
+  margin: 2em;
+  text-align: center;
 }
 span.glyphicon.glyphicon-triangle-bottom {
   font-size: 2em;
