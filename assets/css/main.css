@@ -1358,10 +1358,12 @@
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
 		text-decoration: none;
+
 	}
 
 	.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
-		color: #fff;
+		color: black;
+
 	}
 
 	strong, b {
@@ -1998,17 +2000,18 @@
 	#header {
 		position: relative;
 		margin: 0;
-		background-image: url("images/overlay.png"), url("../../images/header.jpg");
+		background-image: url("images/overlay.png"), url("../../images/header2.jpg");
 		background-size: auto, cover;
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		padding: 14em 0 14em 0;
 		text-align: center;
-		color: #fff;
+		color: black;
 	}
 
 		#header header h1 {
 			font-size: 2.25em;
+			font-weight: 150;
 			line-height: 1.25em;
 			margin-bottom: 0;
 		}
